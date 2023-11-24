@@ -7,7 +7,6 @@ svg {
 
 body {
   font-family: "Roboto", sans-serif;
-  margin-left: 2rem;
 }
 a {
   text-decoration: none;
@@ -18,6 +17,13 @@ header h1 {
 }
 header h2 {
   font-family: "Roboto", sans-serif;
+}
+#stick {
+  background-color: #ffc017;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
 header {
@@ -38,7 +44,8 @@ header {
 #intro h1 {
   font-size: 5rem;
   font-weight: 500;
-  margin-top: 5rem;
+  padding-top: 7.5rem;
+  margin-top: 6rem;
   margin-bottom: 2.5rem;
   margin-left: 2rem;
 }
@@ -206,52 +213,4 @@ aside {
 .imageContent {
   width: 12rem;
   height: 8rem;
-}
-
-footer {
-  background-color: black;
-}
-
-#footLink {
-  padding-top: 1.5rem;
-  padding-left: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-#footLink > img {
-  margin-left: 2rem;
-}
-
-#footNavbar {
-  padding-top: 1rem;
-}
-
-#footNav > a {
-  color: white;
-  padding-right: 1rem;
-}
-
-#stores {
-  border-top: 0.1rem solid white;
-  padding-top: 1.5rem;
-  padding-left: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-#storeLinks > p {
-  color: white;
-}
-
-#stores {
-  padding-top: 1rem;
-}
-
-#stores > img {
-  width: 7rem;
-  height: 2rem;
-  margin: 2rem;
-}
-
-footer p {
-  color: white;
 }
